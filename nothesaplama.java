@@ -10,22 +10,22 @@ public class Baslangic2 {
         Scanner inp = new Scanner(System.in);
 
         // Kullanıcıdan değerleri alıyoruz.
-        System.out.print(" Matematik Notunuz . ");
+        System.out.print(" Matematik Notunuz : ");
         mat = inp.nextInt();
 
-        System.out.print(" Fizik Notunuz . ");
+        System.out.print(" Fizik Notunuz : ");
         fizik = inp.nextInt();
 
-        System.out.print(" Kimya Notunuz . ");
+        System.out.print(" Kimya Notunuz : ");
         kimya = inp.nextInt();
 
-        System.out.print(" Türkçe Notunuz . ");
+        System.out.print(" Türkçe Notunuz : ");
         turkce = inp.nextInt();
 
-        System.out.print(" Tarih Notunuz . ");
+        System.out.print(" Tarih Notunuz : ");
         tarih = inp.nextInt();
 
-        System.out.print(" Müzik Notunuz . ");
+        System.out.print(" Müzik Notunuz : ");
         muzik = inp.nextInt();
 
         double sonuc = (double) (mat + fizik + kimya + turkce + tarih + muzik) / 6 ;
